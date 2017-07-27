@@ -1,1 +1,0 @@
-# angularjs-weather-app

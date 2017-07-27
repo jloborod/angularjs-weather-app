@@ -1,0 +1,16 @@
+<div class="weather">
+   Weather:
+  <div class="weather-search">
+    <form ng-submit="$ctrl.submitForm()">
+      <input ng-model="$ctrl.cityName" />
+      <button type="submit">Check Weather</button>
+    </form>
+  </div>
+  <div>
+    <p ng-hide="$ctrl.data">
+      Nothing to show yet. Type a city and search!
+    </p>
+    <p>{{ $ctrl.cityName }}</p>
+    <pre>{{ $ctrl.data | json }}</pre>
+  </div>
+</div>
