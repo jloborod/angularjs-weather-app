@@ -1,6 +1,4 @@
-import { apiKey } from '../../../api.config.json';
-
-function WeatherService($http) {
+function WeatherService($http, apiKey) {
   this.getWeather = function(cityName) {
     if(!apiKey) return;
     return $http

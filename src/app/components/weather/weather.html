@@ -10,7 +10,6 @@
     <p ng-hide="$ctrl.data">
       Nothing to show yet. Type a city and search!
     </p>
-    <p>{{ $ctrl.cityName }}</p>
-    <pre>{{ $ctrl.data | json }}</pre>
+    <pre ng-hide="!$ctrl.data">{{ $ctrl.data | json }}</pre>
   </div>
 </div>
