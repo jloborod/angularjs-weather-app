@@ -1,6 +1,5 @@
 describe('App', function() {
   beforeEach(module('ui.router'));
-
   beforeEach(module('common'));
 
   beforeEach(module(function ($stateProvider) {
