@@ -11,14 +11,12 @@ describe('Weather', function () {
     beforeEach(inject(function($injector) {
       WeatherService = $injector.get('WeatherService');
 
-      spyOn(WeatherService, 'getWeather')
-      .and.callFake(function(cityName) {
-        return { name: cityName };
-      });
+      spyOn(WeatherService, 'getWeather');
+      WeatherService.getWeather('London');
     }));
 
     it('should get the weather for a certain city', function() {
-      expect(WeatherService.getWeather('London')).toEqual({ name: 'London' });
+      expect(WeatherService.getWeather).toHaveBeenCalledWith('London');
     });
   });
 });

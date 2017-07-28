@@ -9,6 +9,10 @@
     "start": "gulp",
     "test": "karma start",
     "deploy": "gulp production --deploy",
+    "preupdate-webdriver": "yarn install",
+    "update-webdriver": "webdriver-manager update",
+    "preprotractor": "yarn run update-webdriver",
+    "protractor": "protractor src/e2e-tests/protractor.conf.js",
     "cleanup": "rm -rf dist templates.js"
   },
   "dependencies": {
@@ -39,6 +43,7 @@
     "karma-jasmine": "1.1.0",
     "karma-phantomjs-launcher": "1.0.4",
     "karma-spec-reporter": "0.0.31",
-    "path": "0.12.7"
+    "path": "0.12.7",
+    "protractor": "^5.1.2"
   }
 }
