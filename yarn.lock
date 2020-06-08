@@ -108,9 +108,10 @@ angular-messages@1.6.5:
   version "1.6.5"
   resolved "https://registry.yarnpkg.com/angular-messages/-/angular-messages-1.6.5.tgz#cc8127c48dfc47e69fedd0b0eadd5a97d18983a8"
 
-angular-mocks@^1.6.5:
+angular-mocks@1.6.5:
   version "1.6.5"
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.6.5.tgz#c62f8014cc6d3ed3fd1b383a634ca0009af3efee"
+  integrity sha1-xi+AFMxtPtP9Gzg6Y0ygAJrz7+4=
 
 angular-ui-router@1.0.3:
   version "1.0.3"
@@ -118,9 +119,10 @@ angular-ui-router@1.0.3:
   dependencies:
     "@uirouter/core" "5.0.3"
 
-angular@1.6.5:
-  version "1.6.5"
-  resolved "https://registry.yarnpkg.com/angular/-/angular-1.6.5.tgz#37f788eebec5ce2e3fa02b17bbcb2a231576a0d6"
+angular@1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/angular/-/angular-1.8.0.tgz#b1ec179887869215cab6dfd0df2e42caa65b1b51"
+  integrity sha512-VdaMx+Qk0Skla7B5gw77a8hzlcOakwF8mjlW13DpIWIDlfqwAbSSLfd8N/qZnzEmQF4jC4iofInd3gE7vL8ZZg==
 
 ansi-escapes@^2.0.0:
   version "2.0.0"
@@ -1470,9 +1472,10 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-plugin-angular@^3.0.0:
+eslint-plugin-angular@3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-angular/-/eslint-plugin-angular-3.0.0.tgz#495dba339c9af7fe2a595547746bddd6dc3ed7d3"
+  integrity sha512-Q8x8FvKccC7D4AgJRXbKgsdI/aG9kXOqdRxf6257DmQFtdvERMRlJpU0KRTAg1gDJC0aKIX/QzvddptkR5n8bw==
 
 eslint-scope@^3.7.1:
   version "3.7.1"
@@ -1481,9 +1484,10 @@ eslint-scope@^3.7.1:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint@^4.3.0:
+eslint@4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.3.0.tgz#fcd7c96376bbf34c85ee67ed0012a299642b108f"
+  integrity sha1-/NfJY3a780yF7mftABKimWQrEI8=
   dependencies:
     ajv "^5.2.0"
     babel-code-frame "^6.22.0"
@@ -3728,9 +3732,10 @@ progress@~1.1.8:
   version "1.1.8"
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
 
-protractor@^5.1.2:
+protractor@5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/protractor/-/protractor-5.1.2.tgz#9b221741709a4c62d5cd53c6aadd54a71137e95f"
+  integrity sha1-myIXQXCaTGLVzVPGqt1UpxE36V8=
   dependencies:
     "@types/node" "^6.0.46"
     "@types/q" "^0.0.32"
